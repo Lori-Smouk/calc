@@ -3,6 +3,9 @@
   margin: auto;
   font: 18px 'Gilroy', sans-serif;
 }
+.main{
+  min-height: calc(100vh - 132px);
+}
 .header{
   display: flex;
   justify-content: space-between;
@@ -45,7 +48,6 @@
 .footer{
   display: flex;
   justify-content: space-between;
-  margin-top: 200px;
   font-size: 16px;
   position: sticky;
   bottom: 0;
